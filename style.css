@@ -6,7 +6,7 @@
 body {
   background-color: brown;
   padding: 15px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .todo {
   background-color: white;
@@ -15,6 +15,7 @@ body {
   padding: 10px;
 }
 .titulo {
+  color: white;
   background-color: blue;
   width: auto;
   border-radius: 5px;
@@ -33,6 +34,7 @@ body {
   height: 300px;
   width: 47%;
   padding: 5px;
+  border-radius: 5px;
   border: 2px solid black;
 }
 .input {
@@ -41,26 +43,31 @@ body {
   border-radius: 5px;
 }
 button {
- width:98%;
- background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
- margin: 5px;
- padding: 15px 45px;
- text-align: center;
- text-transform: uppercase;
- transition: 0.5s;
- background-size: 200% auto;
- color: white;            
- box-shadow: 0 0 20px #eee;
- border-radius: 10px;
- display: block;
- 
+  width: 98%;
+  background-image: linear-gradient(
+    to right,
+    #314755 0%,
+    #26a0da 51%,
+    #314755 100%
+  );
+  margin: 5px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
 }
 button:hover {
   background-position: right center; /* change the direction of the change here */
   color: #fff;
   text-decoration: none;
 }
-         
+.botones {
+  margin-top: 15px;
 }
 p {
   border-top: 10px solid rgba(255, 0, 0, 0);
