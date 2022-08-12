@@ -19,13 +19,15 @@
           <p>Cantidad de Productos</p>
           <input class="input" type="number" id="cantidad" />
           <div class="botones">
-            <button>Agregar</button>
-            <button>Calcular</button>
+            <button id="agrego" onclick="agregarProducto()">Agregar</button>
+            <button onclick="precioFinal()">Calcular</button>
           </div>
         </div>
 
         <div class="contenido">
           <p>Listados De Compra</p>
+          <div class="listCompras"><ul id="lista"></ul></div>
+          <p id="pFinal"></p>
         </div>
       </div>
     </div>
