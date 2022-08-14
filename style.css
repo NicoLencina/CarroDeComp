@@ -75,5 +75,15 @@ p {
   font-size: 100%;
 }
 .listCompras {
-  padding: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: inline-block;
+  flex-direction: row;
+  font-size: 70%;
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
+li p {
+  padding: 10px 20px;
 }
