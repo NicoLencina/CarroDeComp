@@ -17,12 +17,13 @@ function agregarProducto() {
     cantidadDeProducto +
     " = $" +
     total;
-  costeFinal += total;
+  costeFinal = costeFinal + total;
+  console.log(costeFinal);
 }
 
 function precioFinal() {
-  let totalida = document.getElementById("listCompras");
-  let resultado = document.createElement("p");
-  resultado.textContent = parseInt(costeFinal);
-  totalida.appendChild(resultado);
+  let totalida = document.getElementById("pFinal");
+  let dato = parseInt(precioFinal);
+  totalida.appendChild(dato);
+  console.log(dato);
 }
